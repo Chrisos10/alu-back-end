@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
 """
-A script that returns information about an employee's TODO list from API in CSV
+A script that returns information about an employee's TODO list from an API
 """
 import csv
 import requests
@@ -32,4 +31,4 @@ if __name__ == "__main__":
             if todo.get("userId") == user_id:
                 todo.update({"name": name})
                 del todo["id"]
-                writer.writerow(todo)i
+                writer.writerow(todo)
