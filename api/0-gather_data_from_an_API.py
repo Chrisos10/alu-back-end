@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A script that returns information about an employee's TODO list progress from an API
+A script that returns information about an employee's TODO list from an API
 """
 import requests
 import sys
